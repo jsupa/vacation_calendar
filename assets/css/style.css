@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  cursor: default;
+}
+
+@font-face {
+  font-family: "Extrathin";
+  src: url(../fonts/Copy_of_Averta_Extrathin.otf);
+}
+@font-face {
+  font-family: "Bold";
+  src: url(../fonts/Copy_of_Averta_Bold.otf);
+}
+@font-face {
+  font-family: "Averta";
+  src: url(../fonts/Copy_of_Averta.otf);
+}
+table {
+  border-spacing: 0;
+}
+
+option {
+  background: white;
+}
+
+.days {
+  background: #75D8AA;
+  color: white;
+  height: 57px;
+}
+.days .YearMonth {
+  width: 55px;
+  padding: 2px 25px;
+  position: fixed;
+  background: #75d8aa;
+  box-shadow: 1px 0 9px -9px black;
+}
+.days .YearMonth h1 {
+  font-size: 26px;
+}
+.days th {
+  padding: 2px 10px;
+  font-size: 17px;
+  font-weight: 100;
+  font-family: "Extrathin";
+}
+.days th:nth-child(2) {
+  padding-left: 115px;
+}
+.days th h1 {
+  font-size: 20px;
+  font-family: "Bold";
+}
+
+tr:nth-child(odd) {
+  background: #F4F4F4;
+}
+tr:nth-child(odd) .name {
+  background: #F4F4F4;
+}
+tr:nth-child(even) {
+  background: #FDF9F9;
+}
+tr:nth-child(even) .name {
+  background: #FDF9F9;
+}
+
+.name {
+  width: 55px;
+  height: 18px;
+  padding: 16px 25px;
+  position: fixed;
+  box-shadow: 1px 0 9px -9px black;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+}
+td:nth-child(2) {
+  padding-left: 115px;
+}
+
+
+select {
+  border-radius: 100%;
+  height: 34px;
+  width: 34px;
+  border: none;
+}
+select:focus, select input:focus {
+  outline: none;
+}
+
+._0 {
+  background: #80B5FF;
+}
+
+._1 {
+  background: #FF8080;
+}
+
+._2 {
+  background: #FFD890;
+}
+
+._3 {
+  background: #7955488c;
+}
+
+._4 {
+  background: #e63e3e;
+}
+
+._-1 {
+  background: #E6E6E6;
+}
+
+.Sat, .Sun {
+  color: #D8FFD3;
+}
+
+/*# sourceMappingURL=style.css.map */
