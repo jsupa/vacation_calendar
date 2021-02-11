@@ -3,8 +3,8 @@
 <?php
 echo "<tr class='days' style='background: #75D8AA;'>";
 $list=array();
-$month = 12;
-$year = 2020;
+$month = date('m');
+$year = date('Y');
 $time=mktime(12, 0, 0, $month, 1, $year);
 echo "<th class='YearMonth'><h1>".date('M', $time)."</h1>".date('Y', $time)."</th>";
 for($d=1; $d<=31; $d++){
